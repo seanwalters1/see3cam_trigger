@@ -1,0 +1,5 @@
+<launch>
+  <node respawn="true" name="see3cam_trigger" pkg="see3cam_trigger" type="see3cam_trigger_node" output="screen" >
+    <param name="rate_hz" value="15" type="int"/>
+  </node>
+</launch>
